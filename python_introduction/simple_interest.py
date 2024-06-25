@@ -1,11 +1,9 @@
-# This program does financial calculations
+# This program calculates the simple interest of an item
 
-monthly_income = int(input("Enter your monthly income: "))
-monthly_expenses = int(input("Enter your monthly expenses: "))
+principal = 1000
+rate = 0.05
+time = 3
 
-monthly_savings = monthly_income - monthly_expenses
+interest = principal * rate * time
 
-projected_saving = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
-
-print("Your monthly savings are:", monthly_savings)
-print("Projected savings after one year, with interest, is", projected_saving)
+print("The simple interst is:  ", interest)
