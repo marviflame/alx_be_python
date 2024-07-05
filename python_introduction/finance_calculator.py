@@ -1,3 +1,5 @@
+#financial calculations
+
 monthly_income = int(input ("Enter your monthly income: "))
 monthly_expenses = int(input ("Enter your total monthly expenses: "))
 monthly_savings = (float(monthly_income) - float(monthly_expenses))
